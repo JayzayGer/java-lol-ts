@@ -1,4 +1,4 @@
-package java.ts.lol;
+package de.project.ts.lol;
 
 public class Main {
 	

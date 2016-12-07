@@ -1,4 +1,4 @@
-package java.ts.lol;
+package de.project.ts.lol;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.FillLayout;
