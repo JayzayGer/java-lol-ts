@@ -2,22 +2,20 @@ package de.project.ts.lol;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Shell;
 
 public class UIEntryPoint {
-	
-	
+
 	private Shell shell;
 
-
-	public void start(){
+	public void start() {
 		shell = new Shell(Display.getCurrent());
 		shell.setBackgroundMode(SWT.INHERIT_FORCE);
 		shell.setLayout(new FillLayout());
 
-		
-		createContent();
+		createContent(shell);
 
 		shell.open();
 		while (!shell.isDisposed()) {
@@ -27,10 +25,9 @@ public class UIEntryPoint {
 		}
 		Display.getCurrent().dispose();
 	}
-	
-	
-	private void createContent(){
-		
+
+	private void createContent(Composite parent) {
+
 	}
 
 }
